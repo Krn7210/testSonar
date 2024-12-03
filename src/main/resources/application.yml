@@ -2,11 +2,11 @@ server:
   port: 8888
 
 spring:
-  # datasource:
-  #   driver-class-name: com.mysql.cj.jdbc.Driver
-  #   url: jdbc:mysql://localhost:3306/sbjunit5?createDatabaseIfNotExist=true&autoReconnect=true&showSSL=false
-  #   username: root
-  #   password: 12345
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sbjunit5?createDatabaseIfNotExist=true&autoReconnect=true&showSSL=false
+    username: root
+    password: 12345
   jpa:
     properties:
       hibernate:
